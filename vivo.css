@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #F8F9FA;
+}
+
+@media(max-width:1200px){
+    .logo1{
+        display: none;
+    }
+    .logo2{
+        display: inline;
+    }
+}
+svg{
+    margin-left: 20px;
+}
+.image1{
+    border-radius: 25px;
+}
+.image1:hover,.image2:hover,.card:hover{
+    transform: scale(0.9);
+}
+.image2{
+    border-radius: 25px;
+}
+.discover{
+    background-color: rgb(179, 177, 177);
+}
+.card1{
+    background-image: linear-gradient(#F6F9FE, white);
+}
+.card2{
+    background-color: #DFDDDE;
+}
+footer{
+    background-color: #242933;
+}
+@media(max-width: 768px){
+    .headerImage1{
+        display: none;
+    }
+    .headerImage2{
+        display: inline-block;
+    }
+    .image1{
+        display: none;
+    }
+    .image1_small{
+        display: block;
+    }
+    .image2{
+        display: none;
+    }
+    .image2_small{
+        display: block;
+    }
+}
+.footerHeadings{
+    color: white;
+}
+.footerLinks{
+    color: #8A8F99;
+}
